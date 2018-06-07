@@ -1,6 +1,6 @@
 apps:
   - script   : index.js
     instances: 4
-    exec_mode: cluster
+    exec_mode: fork
     env_production:
       NODE_ENV: production
