@@ -19,7 +19,7 @@ npm install -g pm2
 
 3. 拉取代码 git clone https://github.com/saqing/php-vs-node.git
 
-4. 安装依赖 cd php-vs-code && cd slow-io && npm install 
+4. 安装依赖 cd php-vs-node && cd slow-io && npm install 
 
 5. 启动应用 pm2 start index.js -i max
 
