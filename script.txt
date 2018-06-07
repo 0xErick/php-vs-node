@@ -1,0 +1,8 @@
+ab -n 1000 -c 100 http://php-http-api.test
+
+ab -n 10000 -c 100 http://php-http-api.test
+
+
+
+ab -n 1000 -c 100  http://node-http-api.test
+ab -n 10000 -c 100 http://node-http-api.test
